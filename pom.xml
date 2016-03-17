@@ -22,9 +22,12 @@
         <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
-            <version>3.0.0</version>
+            <version>3.4.0</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+    <packaging>jar</packaging>
+    <name>java-client</name>
+    <description>Java client for Appium Mobile Webdriver</description>
+    <url>http://appium.io</url>
 </project>
